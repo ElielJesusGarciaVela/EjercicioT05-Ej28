@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         boolean correcto = false;
-        long numIntroducido = 0;
+        int numIntroducido = 0;
         while (!correcto) {
             try {
                 numIntroducido = Integer
@@ -16,8 +16,8 @@ public class App {
                 System.out.println("Ha ocurrido un error inesperado.");
             }
         }
-        long n = numIntroducido;
-        long n2 = numIntroducido - 1;
+        double n = numIntroducido;
+        double n2 = numIntroducido - 1;
         n = n * n2;
         while (n2 > 1) {
             n2--;
